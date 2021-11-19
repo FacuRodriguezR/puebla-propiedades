@@ -1,4 +1,5 @@
 @media(max-width:900px) and (min-width:300px){
+    /* INDEX */
     
     .display-index{
         display:block;
@@ -42,6 +43,7 @@
         position: relative;
 
     }
+<<<<<<< HEAD
 
     /* palmares */
     .iframe-palmares{
@@ -64,6 +66,25 @@
     .imagenes-lotes{
         display: block;
     }
+=======
+   /* NOSOTROS */
+   #header-nos{
+    display: block;
+}
+
+.nav-nos{
+    display: block;
+}
+
+.nosotros-grid{
+    display: block;
+}
+
+#background-nosotros{
+    display: block;
+    
+}
+>>>>>>> develop
 }
 
 
@@ -111,6 +132,7 @@
         position: relative;
         
     }
+<<<<<<< HEAD
 
     /* palmares */
 
@@ -135,6 +157,26 @@
     .imagenes-lotes{
         display: block;
     }
+=======
+/* NOSOTROS */
+#header-nos{
+    display: block;
+}
+
+.nav-nos{
+    display: block;
+}
+
+.nosotros-grid{
+    display: block;
+}
+
+#background-nosotros{
+    display: block;
+    max-width: auto;
+    min-width: auto;
+}
+>>>>>>> develop
 }
 
 @media (max-width:499px) and (min-width:301px){
@@ -162,6 +204,7 @@
         position: relative;
         
     }
+<<<<<<< HEAD
     
     /* palmares */
      
@@ -187,4 +230,34 @@
     .imagenes-lotes{
         display: block;
     }
+=======
+
+     /* NOSOTROS */
+     #header-nos{
+        display: block;
+    }
+
+    .nav-nos{
+        display: block;
+    }
+
+    .nosotros-grid{
+        display: block;
+    }
+
+    #background-nosotros{
+        display: block;
+        max-width: auto;
+        min-width: auto;
+    }
+}
+
+@media (min-width: 1269px){
+    #background-nosotros{
+        display: block;
+    }
+    #background-nosotros img{
+       width: 100%;
+    }
+>>>>>>> develop
 }

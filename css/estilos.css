@@ -417,6 +417,7 @@ grid-template-areas:
   position: relative;
  padding: 100px 0px 100px 0px;
  grid-area: main;
+ max-width: auto;
 }
 
 #background-nosotros:before {
@@ -427,6 +428,7 @@ grid-template-areas:
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.6);
+  max-width: auto;
 }
 
 #background-nosotros p {
@@ -437,6 +439,10 @@ grid-template-areas:
 #background-nosotros h1 {
   color: rgb(240, 152, 20);
   position: relative;
+}
+
+#background-nosotros img{
+  width:max-content;
 }
 .main{
   grid-area: main;
