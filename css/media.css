@@ -28,13 +28,13 @@
     .header-position{
         display: block;
     }
-    .bckground-seccion1 p{
-        
-    }
-
+    
     #cuerpo-index{
         display: block;
 
+    }
+    .anim-img{
+        width: auto;
     }
 }
 
@@ -76,5 +76,16 @@
     #cuerpo-index{
         display: block;
 
+    }
+}
+
+@media (max-width:499px) and (min-width:301px){
+    .fotografias-ventas{
+        width:300px;
+        height: 233px;
+    }
+    .fotografias-ventas2{
+        width:300px;
+        height: 233px;
     }
 }
