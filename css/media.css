@@ -1,5 +1,4 @@
 @media(max-width:900px) and (min-width:300px){
-    /* INDEX */
     
     .display-index{
         display:block;
@@ -65,6 +64,89 @@
     .imagenes-lotes{
         display: block;
     }
+    .fotografias-lotes {
+        width: 300px;
+        height: 225px;
+        padding: 20px;
+        transition: none;  
+      }
+}
+
+
+@media(max-width:1268px) and (min-width:901px){
+    
+    .display-index{
+        display:block;
+        text-align: center;
+    }
+    #venta-index{
+        display:block;
+        text-align: center;
+    }
+    .seccion-fotos{
+        display: block;
+        text-align: center;
+    }
+    .seccion-fotos2{
+        display: block;
+        text-align: center;
+    }
+    .footer-flex{
+        display: block;
+        text-align: center;
+        
+    }
+    .column2{
+        text-align: center;
+    }
+    
+    .header-position{
+        display: block;
+    }
+    
+        
+    
+
+    #cuerpo-index{
+        display: block;
+
+    }
+
+    header{
+        display: block;
+        position: relative;
+        
+    }
+
+    /* palmares */
+
+    .iframe-palmares{
+        display:none;
+    }
+
+    /* lotes */
+    .lotes-body{
+        display: block;
+    }
+
+    .video-lotes{
+        display:none;
+        width: auto;
+    }
+
+    #imagenes-lotes-venta{
+        display: block;
+    }
+
+    .imagenes-lotes{
+        display: block;
+    }
+    .fotografias-lotes {
+        width: 300px;
+        height: 225px;
+        padding: 20px;
+        transition: none;  
+      }
 }
 
 @media (max-width:499px) and (min-width:301px){
@@ -117,4 +199,11 @@
     .imagenes-lotes{
         display: block;
     }
+
+    .fotografias-lotes {
+        width: 300px;
+        height: 225px;
+        padding: 20px;
+        transition: none;  
+      }
 }
