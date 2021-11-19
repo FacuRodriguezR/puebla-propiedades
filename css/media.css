@@ -1,0 +1,80 @@
+@media(max-width:900px) and (min-width:300px){
+    
+    .display-index{
+        display:block;
+        text-align: center;
+    }
+    #venta-index{
+        display:block;
+        text-align: center;
+    }
+    .seccion-fotos{
+        display: block;
+        text-align: center;
+    }
+    .seccion-fotos2{
+        display: block;
+        text-align: center;
+    }
+    .footer-flex{
+        display: block;
+        text-align: center;
+        
+    }
+    .column2{
+        text-align: center;
+    }
+    
+    .header-position{
+        display: block;
+    }
+    .bckground-seccion1 p{
+        
+    }
+
+    #cuerpo-index{
+        display: block;
+
+    }
+}
+
+
+@media(max-width:1268px) and (min-width:901px){
+    
+    .display-index{
+        display:block;
+        text-align: center;
+    }
+    #venta-index{
+        display:block;
+        text-align: center;
+    }
+    .seccion-fotos{
+        display: block;
+        text-align: center;
+    }
+    .seccion-fotos2{
+        display: block;
+        text-align: center;
+    }
+    .footer-flex{
+        display: block;
+        text-align: center;
+        
+    }
+    .column2{
+        text-align: center;
+    }
+    
+    .header-position{
+        display: block;
+    }
+    .bckground-seccion1 p{
+        
+    }
+
+    #cuerpo-index{
+        display: block;
+
+    }
+}
