@@ -42,6 +42,28 @@
         position: relative;
 
     }
+
+    /* palmares */
+    .iframe-palmares{
+        display:none;
+    }
+
+    /* lotes */
+    .lotes-body{
+        display: block;
+    }
+
+    .video-lotes{
+        display: none;
+        width: auto;
+    }
+
+    #imagenes-lotes-venta{
+        display: block;
+    }
+    .imagenes-lotes{
+        display: block;
+    }
 }
 
 
@@ -89,6 +111,30 @@
         position: relative;
         
     }
+
+    /* palmares */
+
+    .iframe-palmares{
+        display:none;
+    }
+
+    /* lotes */
+    .lotes-body{
+        display: block;
+    }
+
+    .video-lotes{
+        display:none;
+        width: auto;
+    }
+
+    #imagenes-lotes-venta{
+        display: block;
+    }
+
+    .imagenes-lotes{
+        display: block;
+    }
 }
 
 @media (max-width:499px) and (min-width:301px){
@@ -115,5 +161,30 @@
         display: block;
         position: relative;
         
+    }
+    
+    /* palmares */
+     
+    .iframe-palmares{
+        display:none;
+    }
+
+    /* lotes */
+    .lotes-body{
+        display: block;
+    }
+
+    .video-lotes{
+        display: none;
+        width: auto;
+    }
+
+    #imagenes-lotes-venta{
+        display: block;
+        position: relative;
+    }
+
+    .imagenes-lotes{
+        display: block;
     }
 }
