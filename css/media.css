@@ -36,6 +36,12 @@
     .anim-img{
         width: auto;
     }
+
+    header{
+        display: block;
+        position: relative;
+
+    }
 }
 
 
@@ -69,13 +75,19 @@
     .header-position{
         display: block;
     }
-    .bckground-seccion1 p{
+    
         
-    }
+    
 
     #cuerpo-index{
         display: block;
 
+    }
+
+    header{
+        display: block;
+        position: relative;
+        
     }
 }
 
@@ -97,5 +109,11 @@
         display: block;
         text-align: center;
         max-width: fit-content;
+    }
+
+    header{
+        display: block;
+        position: relative;
+        
     }
 }
