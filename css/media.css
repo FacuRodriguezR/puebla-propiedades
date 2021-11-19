@@ -43,6 +43,12 @@
 
     }
 
+    nav{
+        display: block;
+        position: relative;
+
+    }
+
     /* palmares */
     .iframe-palmares{
         display:none;
@@ -70,6 +76,13 @@
         padding: 20px;
         transition: none;  
       }
+      /* vender */
+      .principal-vender{
+        display: block;
+    }
+    #background-iframe{
+        display: none;
+    }
 }
 
 
@@ -147,6 +160,13 @@
         padding: 20px;
         transition: none;  
       }
+      /* vender */
+      .principal-vender{
+        display: block;
+    }
+    #background-iframe{
+        display: none;
+    }
 }
 
 @media (max-width:499px) and (min-width:301px){
@@ -205,5 +225,15 @@
         height: 225px;
         padding: 20px;
         transition: none;  
+      }
+
+      /* vender */
+
+      .principal-vender{
+          display: block;
+      }
+
+      #background-iframe{
+          display: none;
       }
 }

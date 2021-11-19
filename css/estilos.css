@@ -465,6 +465,15 @@ grid-template-areas:
 
 
 /* ==VENDER GRID== */
+
+.info-vender{
+  font-family: "Urbanist", sans-serif;
+  color: rgb(24, 23, 22);
+  font-size: 30px;
+}
+.info-vender:hover{
+  font-size: 30px;
+}
 .principal-vender{
   display: grid;
   grid-template-areas: 
