@@ -83,6 +83,11 @@
     #background-iframe{
         display: none;
     }
+
+    /* form */
+    .body-form{
+        display: block;
+    }
 }
 
 
