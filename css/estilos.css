@@ -703,18 +703,25 @@ grid-template-areas:
 }
 
 /* ==INDEX== */
+
+
 .display-index{
   display: grid;
   grid-template-areas: 
   'header header header'
   'cuerpo cuerpo cuerpo'
   'venta venta venta'
+  'carrousel carrousel carrousel'
   'lista lista lista'
   'footer footer footer'
   ;
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
+}
+
+.carrousel-index{
+  grid-area: carrousel;
 }
 
 #header-index{
